@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="cat">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Formulari 1 d'eregistrament</title>
+    </head>
+    <h1>Formulari bàsic de registre</h1>
+    <form method="GET" action="">
+        <label>NOM:<input placeholder="Paco"tum type="text" method="NOM:"></label>
+        <label>COGNOM:<input placeholder="Mermela"tum type="text" method="COGNOM:"></label>
+        <p></p>
+        <label><input type="radio" name="sex" id="Home" size="40">Home</label>
+        <label><input type="radio" name="sex" id="Dona" size="40">Dona</label>
+        <label><input type="radio" name="sex" id="No binari" size="40">No binari</label>
+        <label><input type="radio" name="sex" id="Altre" size="40">Altre</label>
+        <label><input type="radio" name="sex" id="Prefereixo no respondre" size="40">Prefereixo no respondre</label>
+        <p></p>
+        <p>Email:
+        <label for="email"></label><input placeholder="RosaMelano@gmail.com"tum type="email" id="email" pattern=".+@gmail\.com" size="30" required>
+
+        </p>
+        <p>POBLACIÓ
+            <label><select name="color">
+                <option>Arbúcies</option>
+                <option>Badalona</option>
+                <option>Barcelona</option>
+                <option>Girona</option>
+                <option>Vilassar de Mar</option>
+            </select></label>
+        </p>
+        <p>DESCRIPCIÓ:</p>
+        <label><textarea name="DESCRIPCIÓ" id="DESCRIPCIÓ" cols="50" rows"10"></textarea></label>
+        <p></p>
+        <label><input type="checkbox" name="INFORMACIÓ" checked="yes">Vull rebre informació sobre novetats i ofertes</label>
+        <p></p>
+        <label><input type="checkbox" name="INFORMACIÓ">Declaro haver llegit i acceptar les condiocions generals del programa i la normativa sobre protecció de dades indicada al RGPD</label>
+        <p></p>
+        <input type="submit" value="Enviar" 
+                style="background-color: green; 
+                        color: white" />
+        
+         <input type="reset" value="Reinicia" 
+                style="background-color: red; 
+                        color: white" />
+    </form>
