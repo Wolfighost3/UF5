@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="cat">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-wigth, initial-scale=1.0">
+    <title>Horari en imatge i Grid</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <table align="center" border="3" bordercolor="Red" cellpadding="12" cellspacing="15">
+    <tr>
+        <th bgcolor="green">Hora</th><th>Dilluns</th><th>Dimarts</th><th>Dimecres</th><th>Dijous</th><th>Divendres</th>
+    </tr>
+    <tr>
+        <th bgcolor="orange">3:30-4:25</th><th>-</th><th ROWSPAN=2><a href="../CSShorariGRID_ltapias/img/m7.jpeg" target="_blank"><img src="../CSShorariGRID_ltapias/img/m8.jpg" alt="La imatge no està disponible." style="width: 130px;height:110px;"></th><th>-</th><th><a href="https://es.wikipedia.org/wiki/Desarrollo_web" target="_blank"><img src="../CSShorariGRID_ltapias/img/m8.jpg" alt="La imatge no està disponible." style="width: 75px;height:65px;"></th><th ROWSPAN=2><a href="https://es.wikipedia.org/wiki/Desarrollo_web" target="_blank"><img src="../CSShorariGRID_ltapias/img/m8.jpg" alt="La imatge no està disponible." style="width: 130px;height:110px;"></th>
+    </tr>
+    <tr>
+        <th bgcolor="orange">4:25-5:20</th><th ROWSPAN=2><a href="https://es.wikipedia.org/wiki/Seguridad_inform%C3%A1tica" target="_blank"><img src="../CSShorariGRID_ltapias/img/m6.jpg" alt="La imatge no està disponible." style="width: 130px;height:110px;"></th><th><a href="https://es.wikipedia.org/wiki/Idioma_ingl%C3%A9s" target="_blank"><img src="../CSShorariGRID_ltapias/img/inglés.jpg" alt="La imatge no està disponible." style="width: 120px;height:65px;"></th><th ROWSPAN=2><a href="https://es.wikipedia.org/wiki/Orientaci%C3%B3n_profesional" target="_blank"><img src="../CSShorariGRID_ltapias/img/eie.png" alt="La imatge no està disponible." style="width: 120px;height:65px;"></th></th>
+    </tr>
+    <tr>
+        <th bgcolor="orange">5:20-6:15</th><th><a href="https://es.wikipedia.org/wiki/Seguridad_inform%C3%A1tica" target="_blank"><img src="../CSShorariGRID_ltapias/img/m6.jpg" alt="La imatge no està disponible." style="width: 75px;height:65px;"></th><th><a href="https://es.wikipedia.org/wiki/Tutor" target="_blank"><img src="../CSShorariGRID_ltapias/img/tutoria.jpg" alt="La imatge no està disponible." style="width: 120px;height:65px;"></th><th><a href="https://es.wikipedia.org/wiki/Idioma_ingl%C3%A9s" target="_blank"><img src="../CSShorariGRID_ltapias/img/inglés.jpg" alt="La imatge no està disponible." style="width: 120px;height:65px;"></th>
+    </tr>
+    <tr>
+        <th bgcolor="orange">6:15-6:40</th><th COLSPAN="5">PATI</th>
+    </tr>
+    <tr>
+        <th bgcolor="orange">6:40-7:35</th><th rowspan="3"><a href="https://es.wikipedia.org/wiki/Red_de_computadoras" target="_blank"><img src="../CSShorariGRID_ltapias/img/m7.jpeg" alt="La imatge no està disponible." style="width: 130px;height:110px;"></th><th rowspan="2"><a href="https://es.wikipedia.org/wiki/Seguridad_inform%C3%A1tica" target="_blank"><img src="../CSShorariGRID_ltapias/img/m6.jpg" alt="La imatge no està disponible." style="width: 130px;height:110px;"></th><th rowspan="2"><a href="https://es.wikipedia.org/wiki/Desarrollo_web" target="_blank"><img src="../CSShorariGRID_ltapias/img/m8.jpg alt="La imatge no està disponible." style="width: 130px;height:110px;"></th><th rowspan="3"><a href="https://es.wikipedia.org/wiki/Red_de_computadoras" target="_blank"><img src="../CSShorariGRID_ltapias/img/m7.jpeg" alt="La imatge no està disponible." style="width: 130px;height:110px;"></th><th><a href="https://es.wikipedia.org/wiki/Idioma_ingl%C3%A9s" target="_blank"><img src="../CSShorariGRID_ltapias/img/inglés.jpg" alt="La imatge no està disponible." style="width: 120px;height:65px;"></th>
+    </tr>
+    <tr>
+        <th bgcolor="orange">7:35-8:30</th><th rowspan="2">-</th>
+    </tr>
+    <tr>
+        <th bgcolor="orange">8:30-9:25</th><th>-</th><th>-</th>
+    </tr>
+    </table>
+    <p></p>
+    <div class="grid-container">
+        <div class="grid-item">Hora</div>
+        <div class="grid-item">Dilluns</div>
+        <div class="grid-item">Dimarts</div>
+        <div class="grid-item">Dimecres</div>
+        <div class="grid-item">Dijous</div>
+        <div class="grid-item">Divendres</div>
+        <div class="grid-item">15:30-16:25</div>
+        <div class="grid-item">-</div>
+        <div class="grid-item" id="m8"><img src="img/m8.jpg" alt="La imatge no està disponible." id="m8-img"></div>
+        <div class="grid-item">-</div>
+        <div class="grid-item"><img src="img/m8.jpg" alt="La imatge no està disponible." id="m8-img"></div>
+        <div class="grid-item" id="m8-2"><img src="img/m8.jpg" alt="La imatge no està disponible." id="m8-img"></div>
+        <div class="grid-item">16:25-17:20</div>
+        <div class="grid-item" id="m6"><img src="img/m6.jpg" alt="La imatge no està disponible." id="m6-img"></div>
+        <div class="grid-item"><img src="img/inglés.jpg" alt="La imatge no està disponible." id="ing-img"></div>
+        <div class="grid-item" id="eie"><img src="img/eie.png" alt="La imatge no està disponible." id="eie-img"></div>
+        <div class="grid-item">17:20-18:15</div>
+        <div class="grid-item"><img src="img/m6.jpg" alt="La imatge no està disponible." id="m6-img"></div>
+        <div class="grid-item"><img src="img/tutoria.jpg" alt="La imatge no està disponible." id="tut-img"></div>
+        <div class="grid-item"><img src="img/inglés.jpg" alt="La imatge no està disponible." id="ing-img"></div>
+        <div class="grid-item">18:15-18:40</div>
+        <div class="grid-item pati">PATI</div>
+        <div class="grid-item">18:40-19:35</div>
+        <div class="grid-item" id="m7"><img src="img/m7.jpeg" alt="La imatge no està disponible." id="m7-img"></div>
+        <div class="grid-item" id="m6-2"><img src="img/m6.jpg" alt="La imatge no està disponible." id="m6-img"></div>
+        <div class="grid-item" id="m8-3"><img src="img/m8.jpg" alt="La imatge no està disponible." id="m8-img"></div>
+        <div class="grid-item" id="m7-2"><img src="img/m7.jpeg" alt="La imatge no està disponible." id="m7-img"></div>
+        <div class="grid-item"><img src="img/inglés.jpg" alt="La imatge no està disponible." id="ing-img"></div>
+        <div class="grid-item">19:35-20:30</div>
+        <div class="grid-item guion">-</div>
+        <div class="grid-item">20:30-21:25</div>
+        <div class="grid-item">-</div>
+        <div class="grid-item">-</div>
+    </div>
+</body>
+</html>
