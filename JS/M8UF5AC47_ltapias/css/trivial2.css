@@ -1,0 +1,80 @@
+body {
+    width: 100%;
+    margin: 0;
+    color: rgb(53, 32, 245);
+    background: rgb(223, 155, 8);
+}
+
+h1 {
+    display: block;
+    justify-content: center;
+    font-family: 'Arial' ;
+    color: rgb(0, 0, 0);
+    width: 400px;
+}
+
+#contingut {
+    padding-left: 90% ;
+    border-radius: 15px;
+}
+
+.trivial {
+    display: block;
+    width: 400px;
+    margin: 0px auto;
+}
+
+.preg-head {
+    background-color: #25a70b;
+    color: rgb(20, 19, 19);
+    display: flex;
+    justify-content: space-between;
+    margin: -20px -20px 20px;
+    padding: 15px 20px;
+    border-radius: 15px 15px 0 0;
+    font-size: 20px;
+}
+
+.preg input{
+    opacity: 0;
+    width: 70%;
+    height: 70%;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+.preg-cont {
+    width: 500px;
+    padding: 20px;
+    min-height: 100px;
+    background-color: 100px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.3);
+    border-radius: 15px;
+}
+
+.preg span{
+    display: block;
+    padding: 8px 15px;
+    background-color: #0e0e0e;
+    transition: all 0.3s ease-out;
+}
+
+.preg:hover span {
+    background-color:#d5df7f ;
+}
+.preg input:checked + span {
+    background-color: #f93c3c;
+}
+
+.preg input[valid]:checked + span {
+    background-color: green;
+    color: #fff;
+}
+#contingut{
+    margin-top: 5%;
+    margin-right: 35%;
+    color: white;
+    text-align: center;
+    }

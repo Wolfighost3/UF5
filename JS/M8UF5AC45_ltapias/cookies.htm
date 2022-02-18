@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password</title>
+</head>
+<body>
+    <form name="form" action="#validar">
+        <p>Nom: <input type=text name="login" id="nombretxt"></p>
+        <p>Contrasenya: <input type="password" name="a"></p>
+        <p>Repeteix la contrasenya <input type="password" names="b"></p>
+        <button onclick="validar()">Comprovar</button>
+
+        <p>Nom: <input type=text id="nombre"></p>
+        <p>Cognom: <input type=text id="apellido"></p>
+        <button onclick="guardar()">Guardar dades</button>
+        <button onclick="recuperar()">Recuperar dades</button>
+        <button onclick="esborrar()">Esborrar dades</button>
+        <p>Columna 1</p>
+        <input type="number" id="colum1">
+        <p>Columna 2</p>
+        <input type="number" id="colum2">
+        <p>Resultado</p>
+        <input type="button" onclick="resultat()">
+    </form>
+    <script src="js/cookies.js"></script>
+</body>
+</html>
